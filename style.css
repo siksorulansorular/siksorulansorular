@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1{
+	text-align: center;
+	margin-bottom: 50px;
+	}
+ul.sss{
+	width:90%;	
+	}
+	
+ul.sss li {
+	height: 30px;
+	overflow: hidden;
+	margin-bottom: 20px;
+	border: 1px solid #ccd6dc;
+	transition: height ease-in-out 600ms;
+	list-style-type: none;
+}
+
+ul.sss a {
+	display: block;
+	height: 30px;
+	padding:5px 5px 0 5px;
+	font-size:95%;
+	color: #1e1e1e;
+	text-decoration: none;
+	background:#eceecb;
+}
+
+ul.sss li:hover {
+	height:100px;
+}
+
+ul.sss .long:hover { 
+	height:130px;
+}
+
+ul.sss li:hover a {
+	font-weight: bold;
+	font-size:90%;
+	color:#d85c58;
+}
