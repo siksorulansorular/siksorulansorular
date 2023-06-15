@@ -23,9 +23,9 @@ ul.sss a {
 	height: 30px;
 	padding:5px 5px 0 5px;
 	font-size:95%;
-	color: #1e1e1e;
+	color: #ffffff;
 	text-decoration: none;
-	background:#eceecb;
+	background:#17a2b8;
 }
 
 ul.sss li:hover {
@@ -41,3 +41,4 @@ ul.sss li:hover a {
 	font-size:90%;
 	color:#d85c58;
 }
+
