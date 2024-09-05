@@ -1,22 +1,76 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<title>Bilgi İşlem Sık Sorulan Sorular</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <title>Bilgi İşlem Sık Karşılaşılan Sorunlar</title>
 </head>
-
 <body>
-<ul class="sss">
-   <h1>Bilgi İşlem Sıkça Sorulan Sorular</h1>
-  <li class="long"> <a href="#">1-Bilgisayar giriş şifremi unuttum ya da hiç kullanıcı adı şifrem yok ne yapmalıyım?</a>Adınıza yeni kullanıcı adı açılmasını ya da var olan kullanıcınızın şifresinin sıfırlanmasını talep ediyorsanız <b>istanbul.sistem@saglik.gov.tr</b> mail adresine mail atabilirsiniz. Talep maili gönderdikten sonra sorununuz hala devam ediyor ise <b>0212 638 30 00 (1976)</b> dahili numarasını arayarak destek alabilirsiniz. </li>
-  <li class="long"> <a href="#">2-Doküman Yönetim Sistemi (DYS) kullanıcı adı şifrem yok nasıl temin ederim ya da var olan kullanıcımın şifresini nasıl sıfırlarım?</a>Doküman Yönetim Sistemi (DYS) kullanımı için @saglik.gov.tr uzantılı e-posta hesabı edindikten sonra <b>istanbul.dys@saglik.gov.tr</b> mail adresine DYS kullanıcınızın oluşturulması için talep maili atmanız gerekmektedir. Talep maili gönderdikten sonra sorununuz hala devam ediyor ise <b>0212 638 30 00 (1958) (1968)</b> dahili numaralarını arayarak destek alabilirsiniz. DYS kullanıcınızın şifresi @saglik.gov.tr uzantılı mail adresinizin şifresi ile aynıdır. Dolayısıyla @saglik.gov.tr mail adresi şifrenizi değiştirdiğiniz zaman DYS şifrenizde değişmiş olacaktır. </li>
-  <li class="long"> <a href="#">3-Elektronik İmza (E-İmza) almak istiyorum ya da Elektronik İmza (E-İmza) geldi fakat bilgisayarımda çalıştıramıyorum ne yapmam gerekiyor?</a>Elektronik İmza (E-İmza) almak için gerekli yapılması gereken işlemler hakkında bilgi almak için <b>istanbul.nes@saglik.gov.tr</b> mail adresine mail atarak ya da <b>0212 638 30 00 (1803)</b> dahili numarasını arayarak destek alabilirsiniz.<br></br>Elektronik İmza (E-İmza) ile giriş ve işlem yapabilmek için bilgisayarda Arksigner uygulamasının yüklü olması gerekir. Arksigner uygulamasını https://www.arksigner.com/indir linkine girerek oradan "Standart Kullanıcı Yetkisi" "Windows İçin İndir" butonu tıklayarak indirip kurabilirsiniz. Kurulum esnasında kullanıcı adı şifre girilmesi ekranı gelecektir o ekrana "Hayır" butonunu tıklayınız. Sonrasında bir uyarı penceresi gelecektir bu uyarı penceresine tamam deyip kapatabilirsiniz.<a href="https://www.arksigner.com/indir" title="ArkSigner Uygulamasını İndirmek İçin Tıklayınız">ArkSigner Uygulamasını İndirmek İçin Tıklayınız</a>
-  </li>
-  <li class="long"> <a href="#">4-Bilgisayarım arızalandı ne yapmalıyım?</a>Bilgisayarlarınızda karşılaşacağınız sorunları öncelikle https://apps.istanbulsaglik.gov.tr/TeknikArizaKayit/ArizaGirisEkrani.aspx adresinden form doldurarak arıza kayıt yaptırmanız gerekmektedir. Talep sırasına göre, bildirilen arızalara, bilgi işlem personeli destek vermektedir.<a href="https://apps.istanbulsaglik.gov.tr/TeknikArizaKayit/ArizaGirisEkrani.aspx" title="Bilgi İşlem Arıza Kayıt Vermek İçin Tıklayınız">Bilgi İşlem Arıza Kayıt Vermek İçin Tıklayınız</a>  </li>
-  <li class="long"> <a href="#">5-Arıza kaydı veremiyorum "kullanıcı bulunamadı" uyarısı alıyorum ne yapmalıyım?</a>Biriminizin <b>PERBİS</b> yetkilisi ile iletişime geçerek <b>PERBİS</b> bilgilerinizi güncellemeniz gerekmektedir. </li>
-  <li class="long"> <a href="#">6-Personel kimlik kartım yok ya da kaybettim yeni bir tane çıkarmak istiyorum ne yapmam gerekiyor?</a> Personel kimlik kartları ile ilgili sorunlarınız ve bilgi için <b>selim.kundakci@saglik.gov.tr</b> mail adresine mail atabilirsiniz. Talep maili gönderdikten sonra sorununuz hala devam ediyor ise <b>0212 638 30 00 (1882)</b> dahili numarasını arayarak destek alabilirsiniz.  </li>
-</ul>
+    <h1>Bilgi İşlem Sık Karşılaşılan Sorunlar</h1>
+    <div class="container">
+        <div class="faq">
+            <h2>Bilgisayar giriş şifremi unuttum ya da hiç kullanıcı adı şifrem yok ne yapmalıyım?</h2>
+            <p>Adınıza yeni kullanıcı adı açılmasını ya da var olan kullanıcınızın şifresinin sıfırlanmasını talep ediyorsanız <b>istanbul.sistem@saglik.gov.tr</b> mail adresine mail atabilirsiniz. Talep maili gönderdikten sonra sorununuz hala devam ediyor ise <b>0212 638 30 00 (1976)</b> dahili numarasını arayarak destek alabilirsiniz.</p>
 
+            <button type="button" class="btn">
+                <i class="fa-solid fa-chevron-down"></i>
+                <i class="fa-solid fa-chevron-up"></i>
+            </button>
+        </div>
+
+        <div class="faq">
+            <h2>Doküman Yönetim Sistemi (DYS) kullanıcı adı şifrem yok nasıl temin ederim ya da var olan kullanıcımın şifresini nasıl sıfırlarım?</h2>
+            <p>Doküman Yönetim Sistemi (DYS) kullanımı için @saglik.gov.tr uzantılı e-posta hesabı edindikten sonra <b>istanbul.dys@saglik.gov.tr</b> mail adresine DYS kullanıcınızın oluşturulması için talep maili atmanız gerekmektedir. Talep maili gönderdikten sonra sorununuz hala devam ediyor ise <b>0212 638 30 00 (1958) (1968)</b> dahili numaralarını arayarak destek alabilirsiniz. DYS kullanıcınızın şifresi @saglik.gov.tr uzantılı mail adresinizin şifresi ile aynıdır. Dolayısıyla @saglik.gov.tr mail adresi şifrenizi değiştirdiğiniz zaman DYS şifrenizde değişmiş olacaktır.</p>
+
+            <button type="button" class="btn">
+                <i class="fa-solid fa-chevron-down"></i>
+                <i class="fa-solid fa-chevron-up"></i>
+            </button>
+        </div>
+
+        <div class="faq">
+            <h2>Elektronik İmza (E-İmza) almak istiyorum ya da Elektronik İmza (E-İmza) geldi fakat bilgisayarımda çalıştıramıyorum ne yapmam gerekiyor?</h2>
+            <p>Elektronik İmza (E-İmza) almak için gerekli yapılması gereken işlemler hakkında bilgi almak için <b>istanbul.nes@saglik.gov.tr</b> mail adresine mail atarak ya da <b>0212 638 30 00 (1803)</b> dahili numarasını arayarak destek alabilirsiniz.<br></br>Elektronik İmza (E-İmza) ile giriş ve işlem yapabilmek için bilgisayarda Arksigner uygulamasının yüklü olması gerekir. Arksigner uygulamasını https://www.arksigner.com/indir linkine girerek oradan "Standart Kullanıcı Yetkisi" "Windows İçin İndir" butonu tıklayarak indirip kurabilirsiniz. Kurulum esnasında kullanıcı adı şifre girilmesi ekranı gelecektir o ekrana "Hayır" butonunu tıklayınız. Sonrasında bir uyarı penceresi gelecektir bu uyarı penceresine tamam deyip kapatabilirsiniz.<a href="https://www.arksigner.com/indir" title="ArkSigner Uygulamasını İndirmek İçin Tıklayınız">ArkSigner Uygulamasını İndirmek İçin Tıklayınız</a>
+            </p>
+
+            <button type="button" class="btn">
+                <i class="fa-solid fa-chevron-down"></i>
+                <i class="fa-solid fa-chevron-up"></i>
+            </button>
+        </div>
+
+        <div class="faq">
+            <h2>Bilgisayarım arızalandı ne yapmalıyım?</h2>
+            <p>Bilgisayarlarınızda karşılaşacağınız sorunları öncelikle https://apps.istanbulsaglik.gov.tr/TeknikArizaKayit/ArizaGirisEkrani.aspx adresinden form doldurarak arıza kayıt yaptırmanız gerekmektedir. Talep sırasına göre, bildirilen arızalara, bilgi işlem personeli destek vermektedir.<a href="https://apps.istanbulsaglik.gov.tr/TeknikArizaKayit/ArizaGirisEkrani.aspx" title="Bilgi İşlem Arıza Kayıt Vermek İçin Tıklayınız">Bilgi İşlem Arıza Kayıt Vermek İçin Tıklayınız</a></p>
+
+            <button type="button" class="btn">
+                <i class="fa-solid fa-chevron-down"></i>
+                <i class="fa-solid fa-chevron-up"></i>
+            </button>
+        </div>
+
+        <div class="faq">
+            <h2>Arıza kaydı veremiyorum "kullanıcı bulunamadı" uyarısı alıyorum ne yapmalıyım?</h2>
+            <p>Biriminizin <b>PERBİS</b> yetkilisi ile iletişime geçerek <b>PERBİS</b> bilgilerinizi güncellemeniz gerekmektedir.</p>
+
+            <button type="button" class="btn">
+                <i class="fa-solid fa-chevron-down"></i>
+                <i class="fa-solid fa-chevron-up"></i>
+            </button>
+        </div>
+
+        <div class="faq">
+            <h2>Personel kimlik kartım yok ya da kaybettim yeni bir tane çıkarmak istiyorum ne yapmam gerekiyor?</h2>
+            <p>Personel kimlik kartları ile ilgili sorunlarınız ve bilgi için <b>selim.kundakci@saglik.gov.tr</b> mail adresine mail atabilirsiniz. Talep maili gönderdikten sonra sorununuz hala devam ediyor ise <b>0212 638 30 00 (1882)</b> dahili numarasını arayarak destek alabilirsiniz.</p>
+
+            <button type="button" class="btn">
+                <i class="fa-solid fa-chevron-down"></i>
+                <i class="fa-solid fa-chevron-up"></i>
+            </button>
+        </div>
+    </div>
 </body>
 </html>
